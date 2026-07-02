@@ -1,0 +1,37 @@
+{
+  "name": "ai-learning-world",
+  "version": "1.0.0",
+  "description": "AI Learning World - Minecraft-style 3D learning game",
+  "main": "electron-main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "electron": "electron .",
+    "dist": "electron-builder --mac"
+  },
+  "build": {
+    "appId": "com.alw.ai-learning-world",
+    "productName": "AI学习世界",
+    "mac": {
+      "category": "public.app-category.education",
+      "target": "dmg"
+    },
+    "files": [
+      "**/*",
+      "!data/**",
+      "!*.md"
+    ],
+    "extraResources": []
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "electron": "^42.4.1",
+    "electron-builder": "^26.15.3"
+  }
+}
