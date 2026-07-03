@@ -6,13 +6,23 @@
 
 ## 游戏截图
 
-```
-┌─────────────────────────────────────────┐
-│  WASD 移动 · 空格 跳跃 · 鼠标 视角     │
-│  左键 破坏 · 右键 放置 · 1-0 切换方块   │
-│  Q 切换工具 · E 交互 · F 与NPC对话      │
-└─────────────────────────────────────────┘
-```
+### 登录界面
+![登录界面](screenshots/login.png)
+
+### 3D 开放世界
+![3D开放世界](screenshots/game_world.png)
+
+### 游戏 HUD（准星、工具、快捷栏）
+![游戏HUD](screenshots/game_hud.png)
+
+### 学习模块列表
+![模块列表](screenshots/module_list.png)
+
+### 课程内容 & 钉钉学习平台入口
+![课程内容](screenshots/course_content.png)
+
+### 考核答题
+![考核答题](screenshots/quiz.png)
 
 ## 特性
 
